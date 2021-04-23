@@ -43,3 +43,15 @@ create two api endpoints
         "product":"new product 14",
         "amount":"12.34"
     }
+
+
+## Note
+
+As a springboot project, there are many things still not properly considered in this quick deployment.
+For example, the basic authentication and security of accessing the api and database is not properly done.
+
+Lack of overall design for example like a common module that handles all return format, or all business exception cases.
+
+Also no use of microservices and RPC due to such a short exercise task. No need to add extra complexity.
+
+This is only a very simple (and limited) demonstration of Springboot RESTful API structure with controller - service - mapper design. And, simple deployment of Springboot on AWS EC2, with the database MySQL running on AWS RDS.
