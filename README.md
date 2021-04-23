@@ -1,5 +1,26 @@
 # Sega interview task
 
+## Run and test
+- inspect code in github, written in Java Springboot
+- application already deployed and running on AWS EC2 and RDS
+- api can be tested with e.g. Postman
+
+    ```
+    GET
+    http://segainterviewtask-env.eba-ckxdk42m.us-west-1.elasticbeanstalk.com/api/list
+    
+    
+    POST
+    http://segainterviewtask-env.eba-ckxdk42m.us-west-1.elasticbeanstalk.com/api/add  
+    
+    with Body - raw - JSON
+    {
+        "userId":"1234567891234567890", 
+        "product":"new product 14",
+        "amount":"12.34"
+    }
+    ```
+    
 ## Design requirement
 
 create two api endpoints
@@ -22,17 +43,3 @@ create two api endpoints
         "product":"new product 14",
         "amount":"12.34"
     }
-     
-
-## Run and test
-- inspect code in github, written in Java Springboot
-- application already deployed and running on AWS EC2 and RDS
-- api can be tested with 
-
-    ```
-    POST
-    http://segainterviewtask-env.eba-ckxdk42m.us-west-1.elasticbeanstalk.com/api/add  
-  
-    GET
-    http://segainterviewtask-env.eba-ckxdk42m.us-west-1.elasticbeanstalk.com/api/list
-    ```
