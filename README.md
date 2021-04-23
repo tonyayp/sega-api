@@ -1,7 +1,7 @@
 # Sega interview task
 
 ## Run and test
-- inspect code in github, written in Java Springboot
+- inspect code in github, written in Java Springboot https://github.com/tonyayp/sega-api/tree/master/src/main/java/com/han/sega
 - application already deployed and running on AWS EC2 and RDS
 - api can be tested with e.g. Postman
 
